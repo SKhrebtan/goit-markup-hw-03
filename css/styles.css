@@ -22,13 +22,16 @@ body {
 
 .ourteam {
     background-color: var(--grey-color);
-}
+  }
 
 .hidden-title {
     font-size: 0;
-
+    margin: 0;
+    padding: 0;
 }
-.nav, .list, .feature-list {
+.list, .feature-list {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
  /* Header */
@@ -88,7 +91,10 @@ body {
 /* Hero section */
 
 .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-color: var(--secondary-color);
+    text-align: center;
 }
 
 .hero-title {
@@ -96,10 +102,16 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
+    margin-top: 0;
+    margin-bottom:48px;
    
 }
 
+/* Sections */
+
+.section { 
+      padding-top: 120px; 
+}
 .section-title {
     font-size: 36px;
     line-height: 1.11;
@@ -120,7 +132,8 @@ color: var(--primary-color);
 
 .button {
     cursor: pointer;
-
+    display: inline-block;
+    border: 1px solid transparent;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -129,6 +142,9 @@ color: var(--primary-color);
 }
 
 .button.primary {
+    min-width: 169px;
+    border-radius: 4px;
+    padding: 16px 32px;
     background-color: var(--accent-color);
     color: var(--white-color)
 }
@@ -138,6 +154,9 @@ color: var(--primary-color);
 }
 
 .button.secondary {
+    border-color: #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
     background-color: var(--grey-color);
     color: var(--accent-color)
 }
@@ -167,4 +186,44 @@ color: var(--primary-color);
 
 .footer .logo {
     color: var(--accent-color);
+}
+
+/* Container */
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.container { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1152px;
+    padding-left: 12px;
+    padding-right: 12px;
+   }
+h3 { 
+    margin-bottom: 8px;
+}
+
+.section-title { 
+    margin-bottom: 72px;
+}
+
+p {
+        margin: 0;
+        padding: 0;
+}
+
+.li-item > .title{
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.ourteam .li-item {
+    padding-bottom: 32px;
+}
+
+.container .list {
+    display: flex;
 }
