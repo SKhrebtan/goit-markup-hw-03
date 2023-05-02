@@ -116,7 +116,6 @@ img {
 
 .address .list {
     display: flex;
-    ;
 }
 
 .address {
@@ -248,6 +247,7 @@ img {
 
 .button.secondary {
     border-color: var(--border-color);
+    height: 48px;
     border-radius: 4px;
     padding: 12px 24px;
     background-color: var(--grey-color);
@@ -291,7 +291,7 @@ img {
     padding: 100px 0;
 }
 
-.footer text {
+.footer .text {
     color: var(--grey-color);
     max-width: 264px;
 }
