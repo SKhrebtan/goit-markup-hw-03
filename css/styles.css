@@ -90,7 +90,7 @@ img {
     gap: 40px;
     }
 
-.address {
+.address .list {
     gap: 40px;
 }
 
@@ -145,7 +145,7 @@ img {
 
 /* Hero section */
 
-.hero {   
+.section.hero {   
     background-color: var(--secondary-color);
     text-align: center;
     padding-top: 188px;
@@ -167,13 +167,17 @@ img {
 
 /* Sections */
 
-.container .list {
+.section .list {
     display: flex;
     gap: 24px;
 }
 
 .section.advantages .li-item {
     flex-basis: calc((100%-72px) /4);
+}
+
+.section.advantages .title {
+    margin-bottom: 8px;
 }
 
 .section.propositions .li-item {
