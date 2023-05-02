@@ -336,11 +336,8 @@ h3 {
 .filter-list {
     display: flex;
     justify-content: center;
+    gap: 24px;
     margin-bottom: 72px;
-}
-
-.btn-item + .btn-item {
-    margin-left: 24px;
 }
 
 .list-portfolio {
@@ -353,7 +350,7 @@ h3 {
     row-gap: 48px;
     }
 
-.list-portfolio > .item {
+.list-portfolio > .li-item {
     /* width: calc((100%-48px) / 3); */
     width: 360px;
     }
