@@ -305,6 +305,7 @@ img {
 .footer .text {
     color: var(--grey-color);
     max-width: 264px;
+    margin: 0;
 }
 
 .footer .studio {
@@ -314,6 +315,7 @@ img {
 .footer .logo {
     color: var(--accent-color);
     display: inline-block;
+    margin-bottom: 16px;
  }
 
 /* Container */
