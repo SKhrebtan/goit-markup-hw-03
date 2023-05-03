@@ -70,7 +70,7 @@ img {
     text-decoration: none;
 }
 
-.logo.link {
+.nav .logo.link {
     padding-top: 24px;
     padding-bottom: 24px;
     margin-right: 76px;
@@ -180,6 +180,11 @@ img {
     margin-bottom: 8px;
 }
 
+.section.advantages .text{
+    margin: 0;
+    padding: 0;
+}
+
 .section.propositions .li-item {
     flex-basis: calc((100%-48px) / 3);
 }
@@ -279,10 +284,12 @@ img {
 .worker .title {
     text-align: center;
     margin-bottom: 8px;
-}
+    }
 
 .worker .text {
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 /* Footer */
@@ -306,10 +313,8 @@ img {
 
 .footer .logo {
     color: var(--accent-color);
-
     display: inline-block;
-    margin-bottom: 16px;
-}
+ }
 
 /* Container */
 h1,
